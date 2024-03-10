@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #fff ;
+    text-transform:capitalize;
+    overflow: hidden;
+width: 100vw;
+height:100vh
+}
+.navbar{
+    padding: 10px 20px;
+}
+.navbar-nav{
+    margin:0 100px !important ;
+}
+.nav-item{
+    padding: 2px 30px;
+
+}
+.navbar-brand{
+    width: 150px;
+}
+.nav-link{
+    font-size:22px;
+    font-weight: 600;
+padding: 1px 10px;
+}
+.nav-link:hover{
+    border-bottom:0.1px solid black ;
+}
+
+.fa {
+    font-size: 22px;
+    margin-right: 20px !important;
+}
+main .contaier-fluid{
+
+}
+main .brand-style{
+    font-size: 140px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    padding-top: 75%;
+    padding-bottom: 100px;
+    color: #fff;
+}
+main{
+    background:url(./IMages/hero-bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    object-fit: cover;
+}
+.second-style{
+position: absolute;
+top: 23%;
+left: 45%;
+text-align: center;
+}
+.second-style h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.second-style hr{
+    color: #fff;
+    width: 60%;
+    margin-left: -20%;
+    padding: 50px 10px;
+    transform: rotate(90deg);
+}
+.second-style a{
+    border: none;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 1px 10px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.second-style a:hover{
+    box-shadow: 0 0 4px #fff;
+    color: #fff;
+    background: #000;
+}
+
+@media all and (max-width:320px) {
+
+    .navbar{
+        padding: 3px 5px;
+    }
+    .navbar-nav{
+        margin:0 10px !important ;
+    }
+    .nav-item{
+        padding: 2px 30px;
+    
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+    .nav-link{
+        font-size:22px;
+        font-weight: 600;
+    padding: 1px 10px;
+    }
+    .nav-link:hover{
+        border-bottom:0.1px solid black ;
+    }
+    
+    .fa {
+        font-size: 20px;
+        margin-right: 10px !important;
+    }
+    main .brand-style{
+        font-size: 50px !important;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        transform: rotate(0deg);
+        padding-top: 0%;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    main{
+        background:url(./IMages/hero-bg.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-position: 85%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+    }
+    .second-style{
+    position: static;
+    text-align: center;
+    }
+    .second-style h2{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .second-style hr{
+        color: #fff;
+        width: 40%;
+        margin-left: 0%;
+        padding: 50px 10px;
+        transform: rotate(90deg);
+    }
+    .second-style a{
+        border: none;
+        background: #fff;
+        color: #000;
+        box-shadow: 0 1px 10px;
+        padding: 5px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .second-style a:hover{
+        box-shadow: 0 0 4px #fff;
+        color: #fff;
+        background: #000;
+    }
+}
+
+@media all and (min-width:320px) {
+
+    .navbar{
+        padding: 4px 8px;
+    }
+    .navbar-nav{
+        margin:0 10px !important ;
+    }
+    .nav-item{
+        padding: 2px 30px;
+    
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+    .nav-link{
+        font-size:22px;
+        font-weight: 600;
+    padding: 1px 10px;
+    }
+    
+    .fa {
+        font-size: 21px;
+        margin-right: 10px !important;
+    }
+    main .brand-style{
+        
+        font-size: 60px !important;
+        text-align: center;
+        text-transform: uppercase;
+        transform: rotate(0deg);
+        padding: 4%;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    main{
+        background:url(./IMages/hero-bg.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-position: 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+    }
+    .second-style{
+    position: static;
+    text-align: center;
+    }
+    .second-style h2{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .second-style hr{
+        color: #fff;
+        width: 30%;
+        margin-left: 16%;
+        padding: 60px ;
+        transform: rotate(90deg);
+    }
+    .second-style a{
+
+        border: none;
+        background: #fff;
+        color: #000;
+        box-shadow: 0 1px 10px;
+        padding: 6px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .second-style a:hover{
+        box-shadow: 0 0 4px #fff;
+        color: #fff;
+        background: #000;
+    }
+}
+@media all and (min-width:768px) {
+
+    .navbar{
+        padding: 10px 10px;
+    }
+    .navbar-nav{
+        margin:0 10px !important ;
+    }
+    .nav-item{
+        padding: 2px 30px;
+    
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+    .nav-link{
+        font-size:22px;
+        font-weight: 600;
+    padding: 1px 10px;
+    }
+    
+    .fa {
+        font-size: 21px;
+        margin-right: 20px !important;
+    }
+    main .brand-style{
+        
+        font-size: 80px !important;
+        text-align: center;
+        text-transform: uppercase;
+        transform: rotate(0deg);
+        padding: 4%;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    main{
+        background:url(./IMages/hero-bg.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-position: 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: contain;
+    }
+    .second-style{
+    position: static;
+    text-align: center;
+    }
+    .second-style h2{
+        font-size: 45px;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .second-style hr{
+        color: #fff;
+        width: 10% !important;
+        margin-left: 39%;
+        padding: 40px ;
+        transform: rotate(90deg);
+    }
+    .second-style a{
+
+        border: none;
+        background: #fff;
+        color: #000;
+        box-shadow: 0 1px 10px;
+        padding: 6px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .second-style a:hover{
+        box-shadow: 0 0 4px #fff;
+        color: #fff;
+        background: #000;
+    }
+}
+
+
+
+@media all and (min-width:1024px) {
+
+    body{
+        background: #fff ;
+        text-transform:capitalize;
+        overflow: hidden;
+    width: 100vw;
+    height:100vh
+    }
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar-nav{
+        margin:0 100px !important ;
+    }
+    .nav-item{
+        padding: 2px 25px;
+    
+    }
+    .navbar-brand{
+        width: 150px;
+    }
+    .nav-link{
+        font-size:22px;
+        font-weight: 600;
+    padding: 1px 10px;
+    }
+    .nav-link:hover{
+        border-bottom:0.1px solid black ;
+    }
+    
+    .fa {
+        font-size: 22px;
+        margin-right: 20px !important;
+    }
+    main .contaier-fluid{
+    
+    }
+    main .brand-style{
+        font-size: 140px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        padding-top: 10%;
+        margin-left: -60%;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    main{
+        background:url(./IMages/hero-bg.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .second-style{
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    text-align: center;
+    }
+    .second-style h2{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .second-style hr{
+        color: #fff !important;
+        height: 200%;
+
+        margin-left: -20%;
+        padding: 70px 0px !important;
+        transform: rotate(90deg);
+    }
+    .second-style a{
+        border: none;
+        background: #fff;
+        color: #000;
+        box-shadow: 0 1px 10px;
+        padding: 5px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .second-style a:hover{
+        box-shadow: 0 0 4px #fff;
+        color: #fff;
+        background: #000;
+    }
+    
+}
+@media all and (min-width:1442px) {
+
+    body{
+        background: #fff ;
+        text-transform:capitalize;
+        overflow: hidden;
+    width: 100vw;
+    height:100vh
+    }
+    .navbar{
+        padding: 10px 30px;
+    }
+    .navbar-nav{
+        margin:0 100px !important ;
+    }
+    .nav-item{
+        padding: 2px 25px;
+    
+    }
+    .navbar-brand{
+        width: 250px;
+    }
+    .nav-link{
+        font-size:32px;
+        font-weight: 600;
+    padding: 1px 10px;
+    }
+    .nav-link:hover{
+        border-bottom:0.5px solid black ;
+    }
+    
+    .fa {
+        font-size: 32px;
+        margin-right: 30px !important;
+    }
+    main .contaier-fluid{
+    
+    }
+    main .brand-style{
+        font-size: 240px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        padding-top: 10%;
+        margin-left: -60%;
+        padding-bottom: 0px;
+        color: #fff;
+    }
+    main{
+        background:url(./IMages/hero-bg.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .second-style{
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    text-align: center;
+    }
+    .second-style h2{
+        font-size: 70px;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .second-style hr{
+        color: #fff;
+        width: 100%;
+        margin-left: -20%;
+        padding: 70px 0px;
+        transform: rotate(90deg);
+    }
+    .second-style a{
+        border: none;
+        background: #fff;
+        color: #000;
+        box-shadow: 0 1px 10px;
+        padding: 15px 30px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .second-style a:hover{
+        box-shadow: 0 0 4px #fff;
+        color: #fff;
+        background: #000;
+    }
+    
+}
